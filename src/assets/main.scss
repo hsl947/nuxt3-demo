@@ -1,0 +1,20 @@
+@import './base.css';
+
+html, body{
+  height: 100%;
+}
+#app {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  html{
+    font-size: 90PX!important;
+  }
+  body {
+    display: flex;
+    place-items: center;
+  }
+}
